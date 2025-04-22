@@ -1,85 +1,97 @@
 ﻿using System;
 
-namespace ДвоичныеОперации
+namespace ArrayOperations
 {
-    public class ДвоичноеЧисло
+    public class TwoDimensionalArray
     {
-        private string значение;
+        private int[,] array;
 
-       
-        public ДвоичноеЧисло(string значение)
+        
+        public TwoDimensionalArray(int rows, int columns)
         {
-            if (ЯвляетсяДвоичным(значение))
+            if (rows <= 0 || columns <= 0)
             {
-                this.значение = значение;
+                throw new ArgumentException("Количество строк и столбцов должно быть больше нуля.");
             }
-            else
-            {
-                throw new ArgumentException("Строка должна содержать только двоичные символы (0 или 1).");
-            }
+
+            array = new int[rows, columns];
+            FillArray();
         }
 
        
-        private bool ЯвляетсяДвоичным(string значение)
+        private void FillArray()
         {
-            foreach (char символ in значение)
+            Console.WriteLine("Введите элементы массива:");
+            for (int i = 0; i < array.GetLength(0); i++)
             {
-                if (символ != '0' && символ != '1')
+                for (int j = 0; j < array.GetLength(1); j++)
                 {
-                    return false;
+                    Console.Write($"Элемент [{i}, {j}]: ");
+                    if (!int.TryParse(Console.ReadLine(), out array[i, j]))
+                    {
+                        Console.WriteLine("Некорректный ввод! Установлено значение 0.");
+                        array[i, j] = 0;
+                    }
                 }
             }
-            return true;
         }
 
         
-        public string ПолучитьЗначение()
+        public void DisplayArray()
         {
-            return значение;
-        }
-
-       
-        public ДвоичноеЧисло Сложить(ДвоичноеЧисло другое)
-        {
-            int первое = Convert.ToInt32(this.значение, 2);
-            int второе = Convert.ToInt32(другое.значение, 2);
-            int сумма = первое + второе;
-
-            string результат = Convert.ToString(сумма, 2);
-            return new ДвоичноеЧисло(результат);
+            Console.WriteLine("\nВаш массив:");
+            for (int i = 0; i < array.GetLength(0); i++)
+            {
+                for (int j = 0; j < array.GetLength(1); j++)
+                {
+                    Console.Write(array[i, j] + "\t");
+                }
+                Console.WriteLine();
+            }
         }
 
         
-        public ДвоичноеЧисло Умножить(ДвоичноеЧисло другое)
+        public int GetProductOfPositiveElementsLessThanTen()
         {
-            int первое = Convert.ToInt32(this.значение, 2);
-            int второе = Convert.ToInt32(другое.значение, 2);
-            int произведение = первое * второе;
+            int product = 1;
+            bool hasElements = false;
 
-            string результат = Convert.ToString(произведение, 2);
-            return new ДвоичноеЧисло(результат);
+            for (int i = 0; i < array.GetLength(0); i++)
+            {
+                for (int j = 0; j < array.GetLength(1); j++)
+                {
+                    if (array[i, j] > 0 && array[i, j] < 10)
+                    {
+                        product *= array[i, j];
+                        hasElements = true;
+                    }
+                }
+            }
+
+            return hasElements ? product : 0; 
         }
     }
 
-    class Программа
+    class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             try
             {
-                Console.WriteLine("Введите первое двоичное число:");
-                ДвоичноеЧисло первоеЧисло = new ДвоичноеЧисло(Console.ReadLine());
+                Console.WriteLine("Введите размеры массива:");
+                Console.Write("Количество строк: ");
+                int rows = int.Parse(Console.ReadLine());
+                Console.Write("Количество столбцов: ");
+                int columns = int.Parse(Console.ReadLine());
 
-                Console.WriteLine("Введите второе двоичное число:");
-                ДвоичноеЧисло второеЧисло = new ДвоичноеЧисло(Console.ReadLine());
+                TwoDimensionalArray array = new TwoDimensionalArray(rows, columns);
 
-                ДвоичноеЧисло сумма = первоеЧисло.Сложить(второеЧисло);
-                ДвоичноеЧисло произведение = первоеЧисло.Умножить(второеЧисло);
+                array.DisplayArray();
 
-                Console.WriteLine($"Первое число: {первоеЧисло.ПолучитьЗначение()}");
-                Console.WriteLine($"Второе число: {второеЧисло.ПолучитьЗначение()}");
-                Console.WriteLine($"Сумма: {сумма.ПолучитьЗначение()}");
-                Console.WriteLine($"Произведение: {произведение.ПолучитьЗначение()}");
+                int product = array.GetProductOfPositiveElementsLessThanTen();
+
+                Console.WriteLine("\nПроизведение положительных элементов массива, меньших 10: " +
+                                  (product != 0 ? product.ToString() : "Нет подходящих элементов"));
             }
             catch (Exception ex)
             {
@@ -88,4 +100,3 @@ namespace ДвоичныеОперации
         }
     }
 }
-

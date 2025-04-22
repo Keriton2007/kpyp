@@ -1,39 +1,73 @@
 ﻿using System;
 
-namespace SortProcedure
+namespace FunctionCalculator
 {
     class Program
     {
         static void Main()
         {
-            
-            double A1 = 12.5, B1 = 7.2, C1 = 9.8;
-            Console.WriteLine($"Первый набор до сортировки: A1={A1}, B1={B1}, C1={C1}");
-            SortDec3(ref A1, ref B1, ref C1);
-            Console.WriteLine($"Первый набор после сортировки: A1={A1}, B1={B1}, C1={C1}\n");
+            try
+            {
+                Console.WriteLine("Введите вещественное значение x (-4 < x):");
+                double x = ReadDouble();
 
-            
-            double A2 = 6.9, B2 = 18.1, C2 = 15.0;
-            Console.WriteLine($"Второй набор до сортировки: A2={A2}, B2={B2}, C2={C2}");
-            SortDec3(ref A2, ref B2, ref C2);
-            Console.WriteLine($"Второй набор после сортировки: A2={A2}, B2={B2}, C2={C2}");
-        }
+                if (x <= -4)
+                {
+                    throw new ArgumentOutOfRangeException("x", "Значение x должно быть больше -4.");
+                }
 
-
-        static void SortDec3(ref double A, ref double B, ref double C)
-        {
-            
-            if (A < B) Swap(ref A, ref B);
-            if (A < C) Swap(ref A, ref C);
-            if (B < C) Swap(ref B, ref C);
+                double result = CalculateFunction(x);
+                Console.WriteLine($"Значение функции f(x): {result:F4}");
+            }
+            catch (DivideByZeroException ex)
+            {
+                Console.WriteLine($"Ошибка: Деление на ноль! {ex.Message}");
+            }
+            catch (FormatException ex)
+            {
+                Console.WriteLine($"Ошибка: Некорректный ввод данных! {ex.Message}");
+            }
+            catch (ArgumentOutOfRangeException ex)
+            {
+                Console.WriteLine($"Ошибка: {ex.Message}");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Произошла неизвестная ошибка: {ex.Message}");
+            }
         }
 
         
-        static void Swap(ref double x, ref double y)
+        static double ReadDouble()
         {
-            double temp = x;
-            x = y;
-            y = temp;
+            while (true)
+            {
+                try
+                {
+                    return Convert.ToDouble(Console.ReadLine());
+                }
+                catch (FormatException)
+                {
+                    Console.WriteLine("Некорректный ввод. Пожалуйста, введите числовое значение:");
+                }
+            }
+        }
+
+        
+        static double CalculateFunction(double x)
+        {
+            if (x <= 1)
+            {
+                if (x == -1)
+                {
+                    throw new DivideByZeroException("В выражении f(x) = (3x + 2) / (4x + 4) происходит деление на ноль при x = -1.");
+                }
+                return (3 * x + 2) / (4 * x + 4);
+            }
+            else
+            {
+                return Math.Pow(x, 2); 
+            }
         }
     }
 }

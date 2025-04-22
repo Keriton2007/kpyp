@@ -4,38 +4,25 @@ class Program
 {
     static void Main()
     {
-        Console.Write("Введите a: ");
-        double a = GetDouble();
-
-        Console.Write("Введите b: ");
-        double b = GetDouble();
-
-        Console.Write("Введите c: ");
-        double c = GetDouble();
-
-        Console.Write("Введите d: ");
-        double d = GetDouble();
-
-        // Вычисление результата
-        double result = (a / b) + (c / d);
-
-        // Вывод результата
-        Console.WriteLine($"Результат: (a / b) + (c / d) = {result:F2}");
-    }
-
-    static double GetDouble()
-    {
-        while (true)
+        Console.Write("Введите значение x: ");
+        if (double.TryParse(Console.ReadLine(), out double x))
         {
-            if (double.TryParse(Console.ReadLine(), out double value))
+            double y;
+
+            if (x > 6.7)
             {
-                return value;
+                y = 4 - Math.Exp(4 * x); 
             }
             else
             {
-                Console.WriteLine("Некорректный ввод. Пожалуйста, введите вещественное число:");
+                y = Math.Log(3.5 + x);  
             }
+
+            Console.WriteLine($"Значение функции y для x = {x}: {y:F4}");
+        }
+        else
+        {
+            Console.WriteLine("Некорректный ввод. Убедитесь, что введено вещественное число.");
         }
     }
 }
-

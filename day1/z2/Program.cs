@@ -4,19 +4,29 @@ class Program
 {
     static void Main()
     {
-        Console.WriteLine("Введите трёхзначное число и нажмите <Enter>:");
+        Console.Write("Введите трёхзначное число: ");
 
-        // Чтение ввода пользователя
+        
         if (int.TryParse(Console.ReadLine(), out int number) && number >= 100 && number <= 999)
         {
-            // Извлечение первой и второй цифр
-            int firstDigit = number / 100;         // Первая цифра
-            int secondDigit = (number / 10) % 10;  // Вторая цифра
 
-            // Вычисление суммы
-            int sum = firstDigit + secondDigit;
+            int firstDigit = number / 100;          
+            int secondDigit = (number / 10) % 10;   
+            int thirdDigit = number % 10;          
 
-            Console.WriteLine($"Сумма первой и второй цифр числа {number}: {sum}");
+            
+            bool isAscending = firstDigit < secondDigit && secondDigit < thirdDigit;
+            bool isDescending = firstDigit > secondDigit && secondDigit > thirdDigit;
+
+            
+            if (isAscending || isDescending)
+            {
+                Console.WriteLine($"Цифры числа {number} образуют {(isAscending ? "возрастающую" : "убывающую")} последовательность.");
+            }
+            else
+            {
+                Console.WriteLine($"Цифры числа {number} не образуют ни возрастающую, ни убывающую последовательность.");
+            }
         }
         else
         {
@@ -24,4 +34,3 @@ class Program
         }
     }
 }
-

@@ -1,42 +1,82 @@
 ﻿using System;
 
-class A
+namespace FunctionTable
 {
-   
-    public int a { get; set; }
-    public int b { get; set; }
-
-    
-    public A(int a, int b)
+    class Program
     {
-        this.a = a;
-        this.b = b;
-    }
+        static void Main()
+        {
+            
+            Console.Write("Введите начало диапазона a: ");
+            double a = ReadDouble();
 
-    
-    public int CalculateSum()
-    {
-        return a + b;
-    }
+            Console.Write("Введите конец диапазона b: ");
+            double b = ReadDouble();
 
-    
-    public int CalculateDifference()
-    {
-        return a - b;
-    }
-}
+            Console.Write("Введите шаг h: ");
+            double h = ReadDouble();
 
-class Program
-{
-    static void Main()
-    {
+            
+            if (h <= 0 || a >= b)
+            {
+                Console.WriteLine("Некорректные значения. Убедитесь, что h > 0 и a < b.");
+                return;
+            }
+
+
+            BuildTable(a, b, h);
+        }
+
         
-        A obj = new A(10, 5);
+        static double ReadDouble()
+        {
+            while (true)
+            {
+                if (double.TryParse(Console.ReadLine(), out double value))
+                {
+                    return value;
+                }
+                else
+                {
+                    Console.WriteLine("Некорректный ввод. Пожалуйста, введите число:");
+                }
+            }
+        }
 
+        
+        static double CalculateFunction(double x)
+        {
+            double y;
 
-        Console.WriteLine("Значение a: " + obj.a);
-        Console.WriteLine("Значение b: " + obj.b);
-        Console.WriteLine("Сумма a и b: " + obj.CalculateSum());
-        Console.WriteLine("Разность a и b: " + obj.CalculateDifference());
+            
+            if (x < 0)
+            {
+                y = (2 * x - 1) / (3 * x);
+            }
+            else if (x >= 0 && x <= 3)
+            {
+                y = (2 * x + 1) / (3 * x);
+            }
+            else // x > 3
+            {
+                y = (2 * x + 1) / (3 * x - 1);
+            }
+
+            return y;
+        }
+
+        
+        static void BuildTable(double a, double b, double h)
+        {
+            Console.WriteLine("\nТаблица значений функции f(x):");
+            Console.WriteLine(" x\t\tf(x)");
+            Console.WriteLine("-------------------------");
+
+            for (double x = a; x <= b; x += h)
+            {
+                double y = CalculateFunction(x);
+                Console.WriteLine($"{x:F4}\t\t{y:F4}");
+            }
+        }
     }
 }

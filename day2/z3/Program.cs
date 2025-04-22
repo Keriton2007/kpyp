@@ -1,26 +1,91 @@
 ﻿using System;
 
-class Program
+namespace ДвоичныеОперации
 {
-    static void Main()
+    public class ДвоичноеЧисло
     {
-        Console.Write("Введите целое число N (1 <= N <= 20): ");
-        if (int.TryParse(Console.ReadLine(), out int N) && N >= 1 && N <= 20)
-        {
-            double result = 0.0;
+        private string значение;
 
-            for (int i = 1; i <= N; i++)
+       
+        public ДвоичноеЧисло(string значение)
+        {
+            if (ЯвляетсяДвоичным(значение))
             {
-                
-                double term = 1.0 * i * Math.Pow(-1, i + 1);
-                result += term;
+                this.значение = значение;
             }
-
-            Console.WriteLine($"Результат выражения: {result:F4}");
+            else
+            {
+                throw new ArgumentException("Строка должна содержать только двоичные символы (0 или 1).");
+            }
         }
-        else
+
+       
+        private bool ЯвляетсяДвоичным(string значение)
         {
-            Console.WriteLine("Некорректный ввод. Убедитесь, что N - это целое число от 1 до 20.");
+            foreach (char символ in значение)
+            {
+                if (символ != '0' && символ != '1')
+                {
+                    return false;
+                }
+            }
+            return true;
+        }
+
+        
+        public string ПолучитьЗначение()
+        {
+            return значение;
+        }
+
+       
+        public ДвоичноеЧисло Сложить(ДвоичноеЧисло другое)
+        {
+            int первое = Convert.ToInt32(this.значение, 2);
+            int второе = Convert.ToInt32(другое.значение, 2);
+            int сумма = первое + второе;
+
+            string результат = Convert.ToString(сумма, 2);
+            return new ДвоичноеЧисло(результат);
+        }
+
+        
+        public ДвоичноеЧисло Умножить(ДвоичноеЧисло другое)
+        {
+            int первое = Convert.ToInt32(this.значение, 2);
+            int второе = Convert.ToInt32(другое.значение, 2);
+            int произведение = первое * второе;
+
+            string результат = Convert.ToString(произведение, 2);
+            return new ДвоичноеЧисло(результат);
+        }
+    }
+
+    class Программа
+    {
+        static void Main(string[] args)
+        {
+            try
+            {
+                Console.WriteLine("Введите первое двоичное число:");
+                ДвоичноеЧисло первоеЧисло = new ДвоичноеЧисло(Console.ReadLine());
+
+                Console.WriteLine("Введите второе двоичное число:");
+                ДвоичноеЧисло второеЧисло = new ДвоичноеЧисло(Console.ReadLine());
+
+                ДвоичноеЧисло сумма = первоеЧисло.Сложить(второеЧисло);
+                ДвоичноеЧисло произведение = первоеЧисло.Умножить(второеЧисло);
+
+                Console.WriteLine($"Первое число: {первоеЧисло.ПолучитьЗначение()}");
+                Console.WriteLine($"Второе число: {второеЧисло.ПолучитьЗначение()}");
+                Console.WriteLine($"Сумма: {сумма.ПолучитьЗначение()}");
+                Console.WriteLine($"Произведение: {произведение.ПолучитьЗначение()}");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Ошибка: {ex.Message}");
+            }
         }
     }
 }
+

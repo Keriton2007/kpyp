@@ -1,118 +1,39 @@
 ﻿using System;
 
-namespace EngineHierarchy
+namespace SortProcedure
 {
-    public class Engine
-    {
-        string name_engine, type_engine;
-        int power;
-
-        public Engine()
-        {
-            this.name_engine = String.Empty;
-            this.type_engine = String.Empty;
-            this.power = 0;
-            Input();
-        }
-
-        void Input()
-        {
-            Console.WriteLine("Введите название двигателя:");
-            name_engine = Console.ReadLine();
-            Console.WriteLine("Введите тип двигателя:");
-            type_engine = Console.ReadLine();
-            Console.WriteLine("Введите мощность двигателя:");
-            power = Convert.ToInt32(Console.ReadLine());
-        }
-
-        public virtual string Output()
-        {
-            return "Название двигателя: " + name_engine + " Тип двигателя: " + type_engine + " Мощность двигателя: " + power + " ";
-        }
-    }
-
-    public class InternalCombustionEngine : Engine
-    {
-        string fuel_type;
-
-        public InternalCombustionEngine() : base()
-        {
-            this.fuel_type = String.Empty;
-            Input();
-        }
-
-        void Input()
-        {
-            Console.WriteLine("Введите тип топлива двигателя внутреннего сгорания:");
-            fuel_type = Console.ReadLine();
-        }
-
-        public override string Output()
-        {
-            return base.Output() + " Тип топлива: " + fuel_type + " ";
-        }
-    }
-
-    public class DieselEngine : InternalCombustionEngine
-    {
-        int cylinder_count;
-
-        public DieselEngine() : base()
-        {
-            this.cylinder_count = 0;
-            Input();
-        }
-
-        void Input()
-        {
-            Console.WriteLine("Введите количество цилиндров дизельного двигателя:");
-            cylinder_count = Convert.ToInt32(Console.ReadLine());
-        }
-
-        public override string Output()
-        {
-            return base.Output() + " Количество цилиндров: " + cylinder_count + " ";
-        }
-    }
-
-    public class JetEngine : Engine
-    {
-        double thrust;
-
-        public JetEngine() : base()
-        {
-            this.thrust = 0.0;
-            Input();
-        }
-
-        void Input()
-        {
-            Console.WriteLine("Введите тягу реактивного двигателя:");
-            thrust = Convert.ToDouble(Console.ReadLine());
-        }
-
-        public override string Output()
-        {
-            return base.Output() + " Тяга двигателя: " + thrust + " кН ";
-        }
-    }
-
     class Program
     {
         static void Main()
         {
-            Console.WriteLine("Двигатель внутреннего сгорания:");
-            InternalCombustionEngine ice = new InternalCombustionEngine();
-            Console.WriteLine(ice.Output());
+            
+            double A1 = 12.5, B1 = 7.2, C1 = 9.8;
+            Console.WriteLine($"Первый набор до сортировки: A1={A1}, B1={B1}, C1={C1}");
+            SortDec3(ref A1, ref B1, ref C1);
+            Console.WriteLine($"Первый набор после сортировки: A1={A1}, B1={B1}, C1={C1}\n");
 
-            Console.WriteLine("\nДизельный двигатель:");
-            DieselEngine diesel = new DieselEngine();
-            Console.WriteLine(diesel.Output());
+            
+            double A2 = 6.9, B2 = 18.1, C2 = 15.0;
+            Console.WriteLine($"Второй набор до сортировки: A2={A2}, B2={B2}, C2={C2}");
+            SortDec3(ref A2, ref B2, ref C2);
+            Console.WriteLine($"Второй набор после сортировки: A2={A2}, B2={B2}, C2={C2}");
+        }
 
-            Console.WriteLine("\nРеактивный двигатель:");
-            JetEngine jet = new JetEngine();
-            Console.WriteLine(jet.Output());
+
+        static void SortDec3(ref double A, ref double B, ref double C)
+        {
+            
+            if (A < B) Swap(ref A, ref B);
+            if (A < C) Swap(ref A, ref C);
+            if (B < C) Swap(ref B, ref C);
+        }
+
+        
+        static void Swap(ref double x, ref double y)
+        {
+            double temp = x;
+            x = y;
+            y = temp;
         }
     }
 }
-

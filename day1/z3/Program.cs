@@ -4,39 +4,23 @@ class Program
 {
     static void Main()
     {
-        Console.WriteLine("Введите угол в градусах и нажмите <Enter>:");
-
-        // Чтение угла от пользователя
-        if (double.TryParse(Console.ReadLine(), out double angleInDegrees))
+        Console.Write("Введите целое число N (1 <= N <= 20): ");
+        if (int.TryParse(Console.ReadLine(), out int N) && N >= 1 && N <= 20)
         {
-            // Перевод угла из градусов в радианы
-            double alpha = angleInDegrees * Math.PI / 180;
+            double result = 0.0;
 
-            // Вычисление по первой формуле
-            double z1 = (Math.Sin(2 * alpha) + Math.Sin(5 * alpha) - Math.Sin(3 * alpha)) /
-                        (Math.Cos(alpha) + 1 - 2 * Math.Pow(Math.Sin(2 * alpha), 2));
-
-            // Вычисление по второй формуле
-            double z2 = 2 * Math.Sin(alpha);
-
-            // Вывод результатов
-            Console.WriteLine($"Результат по формуле z1: {z1:F4}");
-            Console.WriteLine($"Результат по формуле z2: {z2:F4}");
-
-            // Проверка совпадения результатов
-            if (Math.Abs(z1 - z2) < 0.0001)
+            for (int i = 1; i <= N; i++)
             {
-                Console.WriteLine("Результаты формул совпадают (с учётом погрешности).");
+                
+                double term = 1.0 * i * Math.Pow(-1, i + 1);
+                result += term;
             }
-            else
-            {
-                Console.WriteLine("Результаты формул не совпадают.");
-            }
+
+            Console.WriteLine($"Результат выражения: {result:F4}");
         }
         else
         {
-            Console.WriteLine("Некорректный ввод. Убедитесь, что введено число.");
+            Console.WriteLine("Некорректный ввод. Убедитесь, что N - это целое число от 1 до 20.");
         }
     }
 }
-

@@ -1,82 +1,70 @@
 ﻿using System;
 
-namespace FunctionTable
+class Program
 {
-    class Program
+    static void Main()
     {
-        static void Main()
+        try
         {
             
-            Console.Write("Введите начало диапазона a: ");
-            double a = ReadDouble();
-
-            Console.Write("Введите конец диапазона b: ");
-            double b = ReadDouble();
-
-            Console.Write("Введите шаг h: ");
-            double h = ReadDouble();
+            Console.WriteLine("Введите значение x для выражения y = (x + 4) / (x + 8):");
+            double x1 = ReadDouble();
+            double y1 = CalculateFirstExpression(x1);
+            Console.WriteLine($"Результат первого выражения: y = {y1:F4}");
 
             
-            if (h <= 0 || a >= b)
-            {
-                Console.WriteLine("Некорректные значения. Убедитесь, что h > 0 и a < b.");
-                return;
-            }
-
-
-            BuildTable(a, b, h);
+            Console.WriteLine("\nВведите значение x для выражения y = cos^3(x) / (x - 1):");
+            double x2 = ReadDouble();
+            double y2 = CalculateSecondExpression(x2);
+            Console.WriteLine($"Результат второго выражения: y = {y2:F4}");
         }
-
-        
-        static double ReadDouble()
+        catch (DivideByZeroException ex)
         {
-            while (true)
-            {
-                if (double.TryParse(Console.ReadLine(), out double value))
-                {
-                    return value;
-                }
-                else
-                {
-                    Console.WriteLine("Некорректный ввод. Пожалуйста, введите число:");
-                }
-            }
+            Console.WriteLine($"Ошибка: Деление на ноль! {ex.Message}");
         }
-
-        
-        static double CalculateFunction(double x)
+        catch (FormatException ex)
         {
-            double y;
-
-            
-            if (x < 0)
-            {
-                y = (2 * x - 1) / (3 * x);
-            }
-            else if (x >= 0 && x <= 3)
-            {
-                y = (2 * x + 1) / (3 * x);
-            }
-            else // x > 3
-            {
-                y = (2 * x + 1) / (3 * x - 1);
-            }
-
-            return y;
+            Console.WriteLine($"Ошибка: Некорректный ввод данных! {ex.Message}");
         }
-
-        
-        static void BuildTable(double a, double b, double h)
+        catch (Exception ex)
         {
-            Console.WriteLine("\nТаблица значений функции f(x):");
-            Console.WriteLine(" x\t\tf(x)");
-            Console.WriteLine("-------------------------");
+            Console.WriteLine($"Произошла неизвестная ошибка: {ex.Message}");
+        }
+    }
 
-            for (double x = a; x <= b; x += h)
+   
+    static double ReadDouble()
+    {
+        while (true)
+        {
+            try
             {
-                double y = CalculateFunction(x);
-                Console.WriteLine($"{x:F4}\t\t{y:F4}");
+                return Convert.ToDouble(Console.ReadLine());
+            }
+            catch (FormatException)
+            {
+                Console.WriteLine("Некорректный ввод. Пожалуйста, введите числовое значение:");
             }
         }
+    }
+
+    
+    static double CalculateFirstExpression(double x)
+    {
+        if (x == -8)
+        {
+            throw new DivideByZeroException("В первом выражении деление на ноль при x = -8.");
+        }
+        return (x + 4) / (x + 8);
+    }
+
+
+    static double CalculateSecondExpression(double x)
+    {
+        if (x == 1)
+        {
+            throw new DivideByZeroException("Во втором выражении деление на ноль при x = 1.");
+        }
+        return Math.Pow(Math.Cos(x), 3) / (x - 1);
     }
 }

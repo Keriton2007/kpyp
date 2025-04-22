@@ -4,22 +4,41 @@ class Program
 {
     static void Main()
     {
-        Console.Write("Введите четырехзначное число: ");
-        string input = Console.ReadLine();
+        Console.WriteLine("Введите длины сторон треугольника:");
 
-        if (input.Length == 4 && int.TryParse(input, out int number))
+        Console.Write("Сторона a: ");
+        double a = GetDouble();
+
+        Console.Write("Сторона b: ");
+        double b = GetDouble();
+
+        Console.Write("Сторона c: ");
+        double c = GetDouble();
+
+
+        if (a == b && b == c)
         {
-            char[] digits = input.ToCharArray();
-            char temp = digits[1];
-            digits[1] = digits[2];
-            digits[2] = temp;
-
-            string result = new string(digits);
-            Console.WriteLine("Результат после перестановки: " + result);
+            Console.WriteLine("Треугольник является равносторонним.");
         }
         else
         {
-            Console.WriteLine("Ошибка: введите корректное четырехзначное число.");
+            Console.WriteLine("Треугольник не является равносторонним.");
+        }
+    }
+
+    static double GetDouble()
+    {
+        while (true)
+        {
+            string input = Console.ReadLine();
+            if (double.TryParse(input, out double value) && value > 0)
+            {
+                return value;
+            }
+            else
+            {
+                Console.WriteLine("Некорректный ввод. Пожалуйста, введите положительное вещественное число:");
+            }
         }
     }
 }

@@ -4,49 +4,98 @@ class Program
 {
     static void Main()
     {
-        Console.WriteLine("Введите ширину комнаты (A): ");
-        double A = GetDouble();
+        Console.Write("Введите начало диапазона (A): ");
+        int A = GetInt();
 
-        Console.WriteLine("Введите высоту комнаты (B): ");
-        double B = GetDouble();
+        Console.Write("Введите конец диапазона (B): ");
+        int B = GetInt();
 
-        Console.WriteLine("Введите ширину окна (C): ");
-        double C = GetDouble();
+        Console.Write("Введите цифру X: ");
+        int X = GetLastDigit();
 
-        Console.WriteLine("Введите высоту окна (D): ");
-        double D = GetDouble();
+        Console.Write("Введите цифру Y: ");
+        int Y = GetLastDigit();
 
-        Console.WriteLine("Введите ширину двери (N): ");
-        double N = GetDouble();
+        if (A > B)
+        {
+            Console.WriteLine("Начало диапазона (A) должно быть меньше или равно концу диапазона (B).");
+            return;
+        }
 
-        Console.WriteLine("Введите высоту двери (M): ");
-        double M = GetDouble();
+        Console.WriteLine("\nРешение с использованием цикла for:");
+        ForLoopSolution(A, B, X, Y);
 
-        // Вычисление площадей
-        double S1 = C * D; // Площадь окна
-        double S2 = N * M; // Площадь двери
-        double S = 4 * A * B - S1 - S2; // Общая площадь стен для оклеивания обоями
+        Console.WriteLine("\nРешение с использованием цикла while:");
+        WhileLoopSolution(A, B, X, Y);
 
-        // Вывод результата
-        Console.WriteLine($"Площадь окон: {S1:F2} кв.м.");
-        Console.WriteLine($"Площадь дверей: {S2:F2} кв.м.");
-        Console.WriteLine($"Площадь стен для оклеивания: {S:F2} кв.м.");
+        Console.WriteLine("\nРешение с использованием цикла do while:");
+        DoWhileLoopSolution(A, B, X, Y);
     }
 
-    static double GetDouble()
+    static void ForLoopSolution(int A, int B, int X, int Y)
+    {
+        for (int i = B; i >= A; i--)
+        {
+            if (i % 2 == 0 && (i % 10 == X || i % 10 == Y))
+            {
+                Console.WriteLine(i);
+            }
+        }
+    }
+
+    static void WhileLoopSolution(int A, int B, int X, int Y)
+    {
+        int i = B;
+        while (i >= A)
+        {
+            if (i % 2 == 0 && (i % 10 == X || i % 10 == Y))
+            {
+                Console.WriteLine(i);
+            }
+            i--;
+        }
+    }
+
+    static void DoWhileLoopSolution(int A, int B, int X, int Y)
+    {
+        int i = B;
+        do
+        {
+            if (i % 2 == 0 && (i % 10 == X || i % 10 == Y))
+            {
+                Console.WriteLine(i);
+            }
+            i--;
+        } while (i >= A);
+    }
+
+    static int GetInt()
     {
         while (true)
         {
-            string input = Console.ReadLine();
-            if (double.TryParse(input, out double value))
+            if (int.TryParse(Console.ReadLine(), out int value))
             {
                 return value;
             }
             else
             {
-                Console.WriteLine("Некорректный ввод. Пожалуйста, введите вещественное число:");
+                Console.WriteLine("Некорректный ввод. Пожалуйста, введите целое число:");
+            }
+        }
+    }
+
+    static int GetLastDigit()
+    {
+        while (true)
+        {
+            if (int.TryParse(Console.ReadLine(), out int value) && value >= 0 && value <= 9)
+            {
+                return value;
+            }
+            else
+            {
+                Console.WriteLine("Некорректный ввод. Пожалуйста, введите цифру от 0 до 9:");
             }
         }
     }
 }
-
