@@ -1,0 +1,15 @@
+F:\Практика кпияп\16\z1\bin\Debug\net8.0\z1.exe
+F:\Практика кпияп\16\z1\bin\Debug\net8.0\z1.deps.json
+F:\Практика кпияп\16\z1\bin\Debug\net8.0\z1.runtimeconfig.json
+F:\Практика кпияп\16\z1\bin\Debug\net8.0\z1.dll
+F:\Практика кпияп\16\z1\bin\Debug\net8.0\z1.pdb
+F:\Практика кпияп\16\z1\obj\Debug\net8.0\z1.GeneratedMSBuildEditorConfig.editorconfig
+F:\Практика кпияп\16\z1\obj\Debug\net8.0\z1.AssemblyInfoInputs.cache
+F:\Практика кпияп\16\z1\obj\Debug\net8.0\z1.AssemblyInfo.cs
+F:\Практика кпияп\16\z1\obj\Debug\net8.0\z1.csproj.CoreCompileInputs.cache
+F:\Практика кпияп\16\z1\obj\Debug\net8.0\z1.sourcelink.json
+F:\Практика кпияп\16\z1\obj\Debug\net8.0\z1.dll
+F:\Практика кпияп\16\z1\obj\Debug\net8.0\refint\z1.dll
+F:\Практика кпияп\16\z1\obj\Debug\net8.0\z1.pdb
+F:\Практика кпияп\16\z1\obj\Debug\net8.0\z1.genruntimeconfig.cache
+F:\Практика кпияп\16\z1\obj\Debug\net8.0\ref\z1.dll
