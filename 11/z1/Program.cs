@@ -1,18 +1,23 @@
-﻿namespace ConsoleApplication.Models
+﻿using Models;
+using Presentation;
+
+namespace ConsoleApplication
 {
-    public abstract class Shape
+    class Program
     {
-        protected string Name;
-
-        protected Shape(string name)
+        static void Main()
         {
-            Name = name;
-        }
+            Quadrilateral[] shapes =
+            {
+                new Rectangle(4, 5),
+                new Square(3),
+                new Rectangle(6, 2),
+                new Square(5),
+                new Rectangle(7, 3)
+            };
 
-        public abstract double CalculateArea();
-        public virtual string GetInfo()
-        {
-            return $"Фигура: {Name}, Площадь = {CalculateArea():F2}";
+            Presenter.DisplayResults(shapes);
         }
     }
 }
+

@@ -1,12 +1,14 @@
 ﻿using System;
-using ConsoleApplication.Models;
+using Models;
 
-namespace ConsoleApplication.Presentation
+namespace Presentation
 {
     public class Presenter
     {
-        public static void DisplayResults(Shape[] shapes)
+        public static void DisplayResults(Quadrilateral[] shapes)
         {
+            Console.WriteLine("\n--- Список фигур ---\n");
+
             foreach (var shape in shapes)
             {
                 Console.WriteLine(shape.GetInfo());

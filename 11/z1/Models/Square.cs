@@ -1,9 +1,6 @@
-﻿using ConsoleApplication.Models; 
-using System;
-
-namespace z1
+﻿namespace Models
 {
-    public class Square : Shape 
+    public class Square : Quadrilateral
     {
         private readonly double _side;
 
@@ -23,3 +20,4 @@ namespace z1
         }
     }
 }
+
