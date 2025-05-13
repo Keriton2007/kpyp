@@ -1,0 +1,12 @@
+F:\Практика кпияп\17\TriangleRectangleLibrary\bin\Debug\net8.0\TriangleRectangleLibrary.deps.json
+F:\Практика кпияп\17\TriangleRectangleLibrary\bin\Debug\net8.0\TriangleRectangleLibrary.dll
+F:\Практика кпияп\17\TriangleRectangleLibrary\bin\Debug\net8.0\TriangleRectangleLibrary.pdb
+F:\Практика кпияп\17\TriangleRectangleLibrary\obj\Debug\net8.0\TriangleRectangleLibrary.GeneratedMSBuildEditorConfig.editorconfig
+F:\Практика кпияп\17\TriangleRectangleLibrary\obj\Debug\net8.0\TriangleRectangleLibrary.AssemblyInfoInputs.cache
+F:\Практика кпияп\17\TriangleRectangleLibrary\obj\Debug\net8.0\TriangleRectangleLibrary.AssemblyInfo.cs
+F:\Практика кпияп\17\TriangleRectangleLibrary\obj\Debug\net8.0\TriangleRectangleLibrary.csproj.CoreCompileInputs.cache
+F:\Практика кпияп\17\TriangleRectangleLibrary\obj\Debug\net8.0\TriangleRectangleLibrary.sourcelink.json
+F:\Практика кпияп\17\TriangleRectangleLibrary\obj\Debug\net8.0\TriangleRectangleLibrary.dll
+F:\Практика кпияп\17\TriangleRectangleLibrary\obj\Debug\net8.0\refint\TriangleRectangleLibrary.dll
+F:\Практика кпияп\17\TriangleRectangleLibrary\obj\Debug\net8.0\TriangleRectangleLibrary.pdb
+F:\Практика кпияп\17\TriangleRectangleLibrary\obj\Debug\net8.0\ref\TriangleRectangleLibrary.dll

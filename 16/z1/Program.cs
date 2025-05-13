@@ -1,40 +1,29 @@
 ﻿using System;
 using System.IO;
 using System.Linq;
-
 class Program
 {
     static void Main()
     {
-        string filePath = "f.txt"; 
+        string filePath = "F:\\Практика кпияп\\16numbers.txt";
 
-        if (!File.Exists(filePath))
-        {
-            Console.WriteLine("Ошибка: файл не найден!");
-            return;
-        }
 
-        try
-        {
-            
-            double[] numbers = File.ReadAllLines(filePath)
-                                   .Select(line => double.Parse(line))
-                                   .ToArray();
+        Console.WriteLine("Введите числа через пробел:");
+        string input = Console.ReadLine();
 
-            
-            double max = numbers.Max();
-            double min = numbers.Min();
-            double sum = max + min;
+        File.WriteAllText(filePath, input);
 
-            
-            Console.WriteLine($"Максимальное значение: {max}");
-            Console.WriteLine($"Минимальное значение: {min}");
-            Console.WriteLine($"Сумма: {sum}");
-        }
-        catch (Exception ex)
-        {
-            Console.WriteLine($"Ошибка при обработке файла: {ex.Message}");
-        }
+        string fileData = File.ReadAllText(filePath);
+        int[] numbers = fileData.Split(' ')
+                        .Where(n => !string.IsNullOrWhiteSpace(n))
+                        .Select(n => int.TryParse(n, out int result) ? result : 0)
+                        .ToArray();
+
+        int maxNumber = numbers.Max();
+
+        int negativeCount = numbers.Count(n => n < 0);
+
+        Console.WriteLine($"\nМаксимальное число: {maxNumber}");
+        Console.WriteLine($"Количество отрицательных чисел: {negativeCount}");
     }
 }
-

@@ -1,0 +1,5 @@
+F:\Практика кпияп\17\HomeApplianceLibrary\obj\Debug\net8.0\HomeApplianceLibrary.GeneratedMSBuildEditorConfig.editorconfig
+F:\Практика кпияп\17\HomeApplianceLibrary\obj\Debug\net8.0\HomeApplianceLibrary.AssemblyInfoInputs.cache
+F:\Практика кпияп\17\HomeApplianceLibrary\obj\Debug\net8.0\HomeApplianceLibrary.AssemblyInfo.cs
+F:\Практика кпияп\17\HomeApplianceLibrary\obj\Debug\net8.0\HomeApplianceLibrary.csproj.CoreCompileInputs.cache
+F:\Практика кпияп\17\HomeApplianceLibrary\obj\Debug\net8.0\HomeApplianceLibrary.sourcelink.json
