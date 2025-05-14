@@ -1,0 +1,15 @@
+F:\Практика кпияп\18\1\bin\Debug\net8.0\1.exe
+F:\Практика кпияп\18\1\bin\Debug\net8.0\1.deps.json
+F:\Практика кпияп\18\1\bin\Debug\net8.0\1.runtimeconfig.json
+F:\Практика кпияп\18\1\bin\Debug\net8.0\1.dll
+F:\Практика кпияп\18\1\bin\Debug\net8.0\1.pdb
+F:\Практика кпияп\18\1\obj\Debug\net8.0\1.GeneratedMSBuildEditorConfig.editorconfig
+F:\Практика кпияп\18\1\obj\Debug\net8.0\1.AssemblyInfoInputs.cache
+F:\Практика кпияп\18\1\obj\Debug\net8.0\1.AssemblyInfo.cs
+F:\Практика кпияп\18\1\obj\Debug\net8.0\1.csproj.CoreCompileInputs.cache
+F:\Практика кпияп\18\1\obj\Debug\net8.0\1.sourcelink.json
+F:\Практика кпияп\18\1\obj\Debug\net8.0\1.dll
+F:\Практика кпияп\18\1\obj\Debug\net8.0\refint\1.dll
+F:\Практика кпияп\18\1\obj\Debug\net8.0\1.pdb
+F:\Практика кпияп\18\1\obj\Debug\net8.0\1.genruntimeconfig.cache
+F:\Практика кпияп\18\1\obj\Debug\net8.0\ref\1.dll

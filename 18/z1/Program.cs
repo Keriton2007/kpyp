@@ -11,7 +11,7 @@ class Program
         {
             if (c == '#')
             {
-                if (stack.Count > 0) stack.Pop(); 
+                if (stack.Count > 0) stack.Pop();
             }
             else
             {
@@ -31,3 +31,4 @@ class Program
         Console.WriteLine($"Преобразованная строка: {result}");
     }
 }
+р
