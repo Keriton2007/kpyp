@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "i0XrgMnLV5uJk+3l9BVQmne1Hig7mmYTHReyZl3O99/wvwiVm4ZlunOgdBW8KhwqQRGNXSRzMQLdWf5WVUJHwQ==",
+  "success": true,
+  "projectFilePath": "D:\\Documents\\практика с#\\DAY1\\DAY26\\Task1\\Task1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rakel\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.0\\microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
+    "C:\\Users\\rakel\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\rakel\\.nuget\\packages\\microsoft.extensions.logging\\8.0.0\\microsoft.extensions.logging.8.0.0.nupkg.sha512",
+    "C:\\Users\\rakel\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\rakel\\.nuget\\packages\\microsoft.extensions.options\\8.0.0\\microsoft.extensions.options.8.0.0.nupkg.sha512",
+    "C:\\Users\\rakel\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

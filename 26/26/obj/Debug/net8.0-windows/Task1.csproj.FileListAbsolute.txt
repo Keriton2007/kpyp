@@ -1,0 +1,59 @@
+D:\Projects\C#\Practice_CSharp\Tema26\Task1\obj\Debug\net8.0-windows\Task1.csproj.AssemblyReference.cache
+D:\Projects\C#\Practice_CSharp\Tema26\Task1\obj\Debug\net8.0-windows\MainWindow.baml
+D:\Projects\C#\Practice_CSharp\Tema26\Task1\obj\Debug\net8.0-windows\MainWindow.g.cs
+D:\Projects\C#\Practice_CSharp\Tema26\Task1\obj\Debug\net8.0-windows\App.g.cs
+D:\Projects\C#\Practice_CSharp\Tema26\Task1\obj\Debug\net8.0-windows\Task1_MarkupCompile.cache
+D:\Projects\C#\Practice_CSharp\Tema26\Task1\obj\Debug\net8.0-windows\Task1.g.resources
+D:\Projects\C#\Practice_CSharp\Tema26\Task1\obj\Debug\net8.0-windows\Task1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\C#\Practice_CSharp\Tema26\Task1\obj\Debug\net8.0-windows\Task1.AssemblyInfoInputs.cache
+D:\Projects\C#\Practice_CSharp\Tema26\Task1\obj\Debug\net8.0-windows\Task1.AssemblyInfo.cs
+D:\Projects\C#\Practice_CSharp\Tema26\Task1\obj\Debug\net8.0-windows\Task1.csproj.CoreCompileInputs.cache
+D:\Projects\C#\Practice_CSharp\Tema26\Task1\obj\Debug\net8.0-windows\Task1.sourcelink.json
+D:\Projects\C#\Practice_CSharp\Tema26\Task1\bin\Debug\net8.0-windows\Task1.exe
+D:\Projects\C#\Practice_CSharp\Tema26\Task1\bin\Debug\net8.0-windows\Task1.deps.json
+D:\Projects\C#\Practice_CSharp\Tema26\Task1\bin\Debug\net8.0-windows\Task1.runtimeconfig.json
+D:\Projects\C#\Practice_CSharp\Tema26\Task1\bin\Debug\net8.0-windows\Task1.dll
+D:\Projects\C#\Practice_CSharp\Tema26\Task1\bin\Debug\net8.0-windows\Task1.pdb
+D:\Projects\C#\Practice_CSharp\Tema26\Task1\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.dll
+D:\Projects\C#\Practice_CSharp\Tema26\Task1\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Projects\C#\Practice_CSharp\Tema26\Task1\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.dll
+D:\Projects\C#\Practice_CSharp\Tema26\Task1\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Projects\C#\Practice_CSharp\Tema26\Task1\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.dll
+D:\Projects\C#\Practice_CSharp\Tema26\Task1\bin\Debug\net8.0-windows\Microsoft.Extensions.Primitives.dll
+D:\Projects\C#\Practice_CSharp\Tema26\Task1\obj\Debug\net8.0-windows\Task1.csproj.Up2Date
+D:\Projects\C#\Practice_CSharp\Tema26\Task1\obj\Debug\net8.0-windows\Task1.dll
+D:\Projects\C#\Practice_CSharp\Tema26\Task1\obj\Debug\net8.0-windows\refint\Task1.dll
+D:\Projects\C#\Practice_CSharp\Tema26\Task1\obj\Debug\net8.0-windows\Task1.pdb
+D:\Projects\C#\Practice_CSharp\Tema26\Task1\obj\Debug\net8.0-windows\Task1.genruntimeconfig.cache
+D:\Projects\C#\Practice_CSharp\Tema26\Task1\obj\Debug\net8.0-windows\ref\Task1.dll
+D:\Projects\C#\Practice_CSharp\Tema26\Task1\obj\Debug\net8.0-windows\AddFlowerWindow.baml
+D:\Projects\C#\Practice_CSharp\Tema26\Task1\obj\Debug\net8.0-windows\AddFlowerWindow.g.cs
+D:\Documents\практика с#\DAY1\DAY26\Task1\bin\Debug\net8.0-windows\Task1.exe
+D:\Documents\практика с#\DAY1\DAY26\Task1\bin\Debug\net8.0-windows\Task1.deps.json
+D:\Documents\практика с#\DAY1\DAY26\Task1\bin\Debug\net8.0-windows\Task1.runtimeconfig.json
+D:\Documents\практика с#\DAY1\DAY26\Task1\bin\Debug\net8.0-windows\Task1.dll
+D:\Documents\практика с#\DAY1\DAY26\Task1\bin\Debug\net8.0-windows\Task1.pdb
+D:\Documents\практика с#\DAY1\DAY26\Task1\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.dll
+D:\Documents\практика с#\DAY1\DAY26\Task1\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Documents\практика с#\DAY1\DAY26\Task1\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.dll
+D:\Documents\практика с#\DAY1\DAY26\Task1\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Documents\практика с#\DAY1\DAY26\Task1\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.dll
+D:\Documents\практика с#\DAY1\DAY26\Task1\bin\Debug\net8.0-windows\Microsoft.Extensions.Primitives.dll
+D:\Documents\практика с#\DAY1\DAY26\Task1\obj\Debug\net8.0-windows\Task1.csproj.AssemblyReference.cache
+D:\Documents\практика с#\DAY1\DAY26\Task1\obj\Debug\net8.0-windows\AddFlowerWindow.baml
+D:\Documents\практика с#\DAY1\DAY26\Task1\obj\Debug\net8.0-windows\MainWindow.baml
+D:\Documents\практика с#\DAY1\DAY26\Task1\obj\Debug\net8.0-windows\AddFlowerWindow.g.cs
+D:\Documents\практика с#\DAY1\DAY26\Task1\obj\Debug\net8.0-windows\MainWindow.g.cs
+D:\Documents\практика с#\DAY1\DAY26\Task1\obj\Debug\net8.0-windows\App.g.cs
+D:\Documents\практика с#\DAY1\DAY26\Task1\obj\Debug\net8.0-windows\Task1_MarkupCompile.cache
+D:\Documents\практика с#\DAY1\DAY26\Task1\obj\Debug\net8.0-windows\Task1.g.resources
+D:\Documents\практика с#\DAY1\DAY26\Task1\obj\Debug\net8.0-windows\Task1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documents\практика с#\DAY1\DAY26\Task1\obj\Debug\net8.0-windows\Task1.AssemblyInfoInputs.cache
+D:\Documents\практика с#\DAY1\DAY26\Task1\obj\Debug\net8.0-windows\Task1.AssemblyInfo.cs
+D:\Documents\практика с#\DAY1\DAY26\Task1\obj\Debug\net8.0-windows\Task1.csproj.CoreCompileInputs.cache
+D:\Documents\практика с#\DAY1\DAY26\Task1\obj\Debug\net8.0-windows\Task1.csproj.Up2Date
+D:\Documents\практика с#\DAY1\DAY26\Task1\obj\Debug\net8.0-windows\Task1.dll
+D:\Documents\практика с#\DAY1\DAY26\Task1\obj\Debug\net8.0-windows\refint\Task1.dll
+D:\Documents\практика с#\DAY1\DAY26\Task1\obj\Debug\net8.0-windows\Task1.pdb
+D:\Documents\практика с#\DAY1\DAY26\Task1\obj\Debug\net8.0-windows\Task1.genruntimeconfig.cache
+D:\Documents\практика с#\DAY1\DAY26\Task1\obj\Debug\net8.0-windows\ref\Task1.dll
