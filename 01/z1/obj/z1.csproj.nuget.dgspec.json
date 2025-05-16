@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Практика кпияп\\2\\z1\\z1.csproj": {}
+    "F:\\Практика кпияп\\01\\z1\\z1.csproj": {}
   },
   "projects": {
-    "F:\\Практика кпияп\\2\\z1\\z1.csproj": {
+    "F:\\Практика кпияп\\01\\z1\\z1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Практика кпияп\\2\\z1\\z1.csproj",
+        "projectUniqueName": "F:\\Практика кпияп\\01\\z1\\z1.csproj",
         "projectName": "z1",
-        "projectPath": "F:\\Практика кпияп\\2\\z1\\z1.csproj",
+        "projectPath": "F:\\Практика кпияп\\01\\z1\\z1.csproj",
         "packagesPath": "C:\\Users\\Карина\\.nuget\\packages\\",
-        "outputPath": "F:\\Практика кпияп\\2\\z1\\obj\\",
+        "outputPath": "F:\\Практика кпияп\\01\\z1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Карина\\AppData\\Roaming\\NuGet\\NuGet.Config",
