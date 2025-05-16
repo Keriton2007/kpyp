@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Pxrz77pwJFjJmD9zKkCjPiryv3FOuJ+oYh3pf/iDNAqwtSg+SzICDGkL7LD1pAxV0EgrStdDjyB5VkAOELfVVQ==",
+  "success": true,
+  "projectFilePath": "D:\\Documents\\практика с#\\DAY1\\DAY23\\Task2\\Task2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rakel\\.nuget\\packages\\winforms.datavisualization\\1.9.2\\winforms.datavisualization.1.9.2.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,57 @@
+D:\Projects\C#\Practice_CSharp\Tema25\Task1\bin\Debug\net8.0-windows\Task1.exe
+D:\Projects\C#\Practice_CSharp\Tema25\Task1\bin\Debug\net8.0-windows\Task1.deps.json
+D:\Projects\C#\Practice_CSharp\Tema25\Task1\bin\Debug\net8.0-windows\Task1.runtimeconfig.json
+D:\Projects\C#\Practice_CSharp\Tema25\Task1\bin\Debug\net8.0-windows\Task1.dll
+D:\Projects\C#\Practice_CSharp\Tema25\Task1\bin\Debug\net8.0-windows\Task1.pdb
+D:\Projects\C#\Practice_CSharp\Tema25\Task1\obj\Debug\net8.0-windows\MainWindow.g.cs
+D:\Projects\C#\Practice_CSharp\Tema25\Task1\obj\Debug\net8.0-windows\App.g.cs
+D:\Projects\C#\Practice_CSharp\Tema25\Task1\obj\Debug\net8.0-windows\Task1_MarkupCompile.cache
+D:\Projects\C#\Practice_CSharp\Tema25\Task1\obj\Debug\net8.0-windows\Task1_MarkupCompile.lref
+D:\Projects\C#\Practice_CSharp\Tema25\Task1\obj\Debug\net8.0-windows\MainWindow.baml
+D:\Projects\C#\Practice_CSharp\Tema25\Task1\obj\Debug\net8.0-windows\Task1.g.resources
+D:\Projects\C#\Practice_CSharp\Tema25\Task1\obj\Debug\net8.0-windows\Task1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\C#\Practice_CSharp\Tema25\Task1\obj\Debug\net8.0-windows\Task1.AssemblyInfoInputs.cache
+D:\Projects\C#\Practice_CSharp\Tema25\Task1\obj\Debug\net8.0-windows\Task1.AssemblyInfo.cs
+D:\Projects\C#\Practice_CSharp\Tema25\Task1\obj\Debug\net8.0-windows\Task1.csproj.CoreCompileInputs.cache
+D:\Projects\C#\Practice_CSharp\Tema25\Task1\obj\Debug\net8.0-windows\Task1.sourcelink.json
+D:\Projects\C#\Practice_CSharp\Tema25\Task1\obj\Debug\net8.0-windows\Task1.dll
+D:\Projects\C#\Practice_CSharp\Tema25\Task1\obj\Debug\net8.0-windows\refint\Task1.dll
+D:\Projects\C#\Practice_CSharp\Tema25\Task1\obj\Debug\net8.0-windows\Task1.pdb
+D:\Projects\C#\Practice_CSharp\Tema25\Task1\obj\Debug\net8.0-windows\Task1.genruntimeconfig.cache
+D:\Projects\C#\Practice_CSharp\Tema25\Task1\obj\Debug\net8.0-windows\ref\Task1.dll
+D:\Projects\C#\Practice_CSharp\Tema25\Task1\obj\Debug\net8.0-windows\About.g.cs
+D:\Projects\C#\Practice_CSharp\Tema25\Task1\obj\Debug\net8.0-windows\About.baml
+D:\Projects\C#\Practice_CSharp\Tema25\Task1\bin\Debug\net8.0-windows\ControlzEx.dll
+D:\Projects\C#\Practice_CSharp\Tema25\Task1\bin\Debug\net8.0-windows\MahApps.Metro.dll
+D:\Projects\C#\Practice_CSharp\Tema25\Task1\bin\Debug\net8.0-windows\Microsoft.Xaml.Behaviors.dll
+D:\Projects\C#\Practice_CSharp\Tema25\Task1\bin\Debug\net8.0-windows\de\MahApps.Metro.resources.dll
+D:\Projects\C#\Practice_CSharp\Tema25\Task1\obj\Debug\net8.0-windows\Task1.csproj.AssemblyReference.cache
+D:\Projects\C#\Practice_CSharp\Tema25\Task1\obj\Debug\net8.0-windows\Task1.csproj.Up2Date
+D:\Documents\практика с#\DAY1\DAY25\Task1\bin\Debug\net8.0-windows\Task1.exe
+D:\Documents\практика с#\DAY1\DAY25\Task1\bin\Debug\net8.0-windows\Task1.deps.json
+D:\Documents\практика с#\DAY1\DAY25\Task1\bin\Debug\net8.0-windows\Task1.runtimeconfig.json
+D:\Documents\практика с#\DAY1\DAY25\Task1\bin\Debug\net8.0-windows\Task1.dll
+D:\Documents\практика с#\DAY1\DAY25\Task1\bin\Debug\net8.0-windows\Task1.pdb
+D:\Documents\практика с#\DAY1\DAY25\Task1\bin\Debug\net8.0-windows\ControlzEx.dll
+D:\Documents\практика с#\DAY1\DAY25\Task1\bin\Debug\net8.0-windows\MahApps.Metro.dll
+D:\Documents\практика с#\DAY1\DAY25\Task1\bin\Debug\net8.0-windows\Microsoft.Xaml.Behaviors.dll
+D:\Documents\практика с#\DAY1\DAY25\Task1\bin\Debug\net8.0-windows\de\MahApps.Metro.resources.dll
+D:\Documents\практика с#\DAY1\DAY25\Task1\obj\Debug\net8.0-windows\Task1.csproj.AssemblyReference.cache
+D:\Documents\практика с#\DAY1\DAY25\Task1\obj\Debug\net8.0-windows\MainWindow.baml
+D:\Documents\практика с#\DAY1\DAY25\Task1\obj\Debug\net8.0-windows\About.g.cs
+D:\Documents\практика с#\DAY1\DAY25\Task1\obj\Debug\net8.0-windows\MainWindow.g.cs
+D:\Documents\практика с#\DAY1\DAY25\Task1\obj\Debug\net8.0-windows\App.g.cs
+D:\Documents\практика с#\DAY1\DAY25\Task1\obj\Debug\net8.0-windows\Task1_MarkupCompile.cache
+D:\Documents\практика с#\DAY1\DAY25\Task1\obj\Debug\net8.0-windows\Task1_MarkupCompile.lref
+D:\Documents\практика с#\DAY1\DAY25\Task1\obj\Debug\net8.0-windows\About.baml
+D:\Documents\практика с#\DAY1\DAY25\Task1\obj\Debug\net8.0-windows\Task1.g.resources
+D:\Documents\практика с#\DAY1\DAY25\Task1\obj\Debug\net8.0-windows\Task1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documents\практика с#\DAY1\DAY25\Task1\obj\Debug\net8.0-windows\Task1.AssemblyInfoInputs.cache
+D:\Documents\практика с#\DAY1\DAY25\Task1\obj\Debug\net8.0-windows\Task1.AssemblyInfo.cs
+D:\Documents\практика с#\DAY1\DAY25\Task1\obj\Debug\net8.0-windows\Task1.csproj.CoreCompileInputs.cache
+D:\Documents\практика с#\DAY1\DAY25\Task1\obj\Debug\net8.0-windows\Task1.csproj.Up2Date
+D:\Documents\практика с#\DAY1\DAY25\Task1\obj\Debug\net8.0-windows\Task1.dll
+D:\Documents\практика с#\DAY1\DAY25\Task1\obj\Debug\net8.0-windows\refint\Task1.dll
+D:\Documents\практика с#\DAY1\DAY25\Task1\obj\Debug\net8.0-windows\Task1.pdb
+D:\Documents\практика с#\DAY1\DAY25\Task1\obj\Debug\net8.0-windows\Task1.genruntimeconfig.cache
+D:\Documents\практика с#\DAY1\DAY25\Task1\obj\Debug\net8.0-windows\ref\Task1.dll
