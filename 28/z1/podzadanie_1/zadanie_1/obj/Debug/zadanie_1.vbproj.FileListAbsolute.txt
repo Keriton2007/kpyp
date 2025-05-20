@@ -1,0 +1,34 @@
+D:\3 курс\Практика C#\Day28\zadanie_1\zadanie_1\bin\Debug\zadanie_1.exe.config
+D:\3 курс\Практика C#\Day28\zadanie_1\zadanie_1\bin\Debug\zadanie_1.exe
+D:\3 курс\Практика C#\Day28\zadanie_1\zadanie_1\bin\Debug\zadanie_1.pdb
+D:\3 курс\Практика C#\Day28\zadanie_1\zadanie_1\bin\Debug\zadanie_1.xml
+D:\3 курс\Практика C#\Day28\zadanie_1\zadanie_1\obj\Debug\zadanie_1.vbproj.AssemblyReference.cache
+D:\3 курс\Практика C#\Day28\zadanie_1\zadanie_1\obj\Debug\MainWindow.g.vb
+D:\3 курс\Практика C#\Day28\zadanie_1\zadanie_1\obj\Debug\Application.g.vb
+D:\3 курс\Практика C#\Day28\zadanie_1\zadanie_1\obj\Debug\zadanie_1_MarkupCompile.cache
+D:\3 курс\Практика C#\Day28\zadanie_1\zadanie_1\obj\Debug\zadanie_1_MarkupCompile.lref
+D:\3 курс\Практика C#\Day28\zadanie_1\zadanie_1\obj\Debug\MainWindow.baml
+D:\3 курс\Практика C#\Day28\zadanie_1\zadanie_1\obj\Debug\zadanie_1.g.resources
+D:\3 курс\Практика C#\Day28\zadanie_1\zadanie_1\obj\Debug\zadanie_1.Resources.resources
+D:\3 курс\Практика C#\Day28\zadanie_1\zadanie_1\obj\Debug\zadanie_1.vbproj.GenerateResource.cache
+D:\3 курс\Практика C#\Day28\zadanie_1\zadanie_1\obj\Debug\zadanie_1.vbproj.CoreCompileInputs.cache
+D:\3 курс\Практика C#\Day28\zadanie_1\zadanie_1\obj\Debug\zadanie_1.exe
+D:\3 курс\Практика C#\Day28\zadanie_1\zadanie_1\obj\Debug\zadanie_1.xml
+D:\3 курс\Практика C#\Day28\zadanie_1\zadanie_1\obj\Debug\zadanie_1.pdb
+F:\Практика кпияп\28\z1\podzadanie_1\zadanie_1\bin\Debug\zadanie_1.exe.config
+F:\Практика кпияп\28\z1\podzadanie_1\zadanie_1\bin\Debug\zadanie_1.exe
+F:\Практика кпияп\28\z1\podzadanie_1\zadanie_1\bin\Debug\zadanie_1.pdb
+F:\Практика кпияп\28\z1\podzadanie_1\zadanie_1\bin\Debug\zadanie_1.xml
+F:\Практика кпияп\28\z1\podzadanie_1\zadanie_1\obj\Debug\zadanie_1.vbproj.AssemblyReference.cache
+F:\Практика кпияп\28\z1\podzadanie_1\zadanie_1\obj\Debug\MainWindow.g.vb
+F:\Практика кпияп\28\z1\podzadanie_1\zadanie_1\obj\Debug\Application.g.vb
+F:\Практика кпияп\28\z1\podzadanie_1\zadanie_1\obj\Debug\zadanie_1_MarkupCompile.cache
+F:\Практика кпияп\28\z1\podzadanie_1\zadanie_1\obj\Debug\zadanie_1_MarkupCompile.lref
+F:\Практика кпияп\28\z1\podzadanie_1\zadanie_1\obj\Debug\MainWindow.baml
+F:\Практика кпияп\28\z1\podzadanie_1\zadanie_1\obj\Debug\zadanie_1.g.resources
+F:\Практика кпияп\28\z1\podzadanie_1\zadanie_1\obj\Debug\zadanie_1.Resources.resources
+F:\Практика кпияп\28\z1\podzadanie_1\zadanie_1\obj\Debug\zadanie_1.vbproj.GenerateResource.cache
+F:\Практика кпияп\28\z1\podzadanie_1\zadanie_1\obj\Debug\zadanie_1.vbproj.CoreCompileInputs.cache
+F:\Практика кпияп\28\z1\podzadanie_1\zadanie_1\obj\Debug\zadanie_1.exe
+F:\Практика кпияп\28\z1\podzadanie_1\zadanie_1\obj\Debug\zadanie_1.xml
+F:\Практика кпияп\28\z1\podzadanie_1\zadanie_1\obj\Debug\zadanie_1.pdb

@@ -1,0 +1,80 @@
+﻿<Window xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Шахматная доска" Height="450" Width="450">
+    <Grid>
+        <UniformGrid Rows="8" Columns="8">
+            <!-- Генерация шахматной доски -->
+            <Rectangle Fill="White"/>
+            <Rectangle Fill="Black"/>
+            <Rectangle Fill="White"/>
+            <Rectangle Fill="Black"/>
+            <Rectangle Fill="White"/>
+            <Rectangle Fill="Black"/>
+            <Rectangle Fill="White"/>
+            <Rectangle Fill="Black"/>
+
+            <Rectangle Fill="Black"/>
+            <Rectangle Fill="White"/>
+            <Rectangle Fill="Black"/>
+            <Rectangle Fill="White"/>
+            <Rectangle Fill="Black"/>
+            <Rectangle Fill="White"/>
+            <Rectangle Fill="Black"/>
+            <Rectangle Fill="White"/>
+
+            <Rectangle Fill="White"/>
+            <Rectangle Fill="Black"/>
+            <Rectangle Fill="White"/>
+            <Rectangle Fill="Black"/>
+            <Rectangle Fill="White"/>
+            <Rectangle Fill="Black"/>
+            <Rectangle Fill="White"/>
+            <Rectangle Fill="Black"/>
+
+            <Rectangle Fill="Black"/>
+            <Rectangle Fill="White"/>
+            <Rectangle Fill="Black"/>
+            <Rectangle Fill="White"/>
+            <Rectangle Fill="Black"/>
+            <Rectangle Fill="White"/>
+            <Rectangle Fill="Black"/>
+            <Rectangle Fill="White"/>
+
+            <Rectangle Fill="White"/>
+            <Rectangle Fill="Black"/>
+            <Rectangle Fill="White"/>
+            <Rectangle Fill="Black"/>
+            <Rectangle Fill="White"/>
+            <Rectangle Fill="Black"/>
+            <Rectangle Fill="White"/>
+            <Rectangle Fill="Black"/>
+
+            <Rectangle Fill="Black"/>
+            <Rectangle Fill="White"/>
+            <Rectangle Fill="Black"/>
+            <Rectangle Fill="White"/>
+            <Rectangle Fill="Black"/>
+            <Rectangle Fill="White"/>
+            <Rectangle Fill="Black"/>
+            <Rectangle Fill="White"/>
+
+            <Rectangle Fill="White"/>
+            <Rectangle Fill="Black"/>
+            <Rectangle Fill="White"/>
+            <Rectangle Fill="Black"/>
+            <Rectangle Fill="White"/>
+            <Rectangle Fill="Black"/>
+            <Rectangle Fill="White"/>
+            <Rectangle Fill="Black"/>
+
+            <Rectangle Fill="Black"/>
+            <Rectangle Fill="White"/>
+            <Rectangle Fill="Black"/>
+            <Rectangle Fill="White"/>
+            <Rectangle Fill="Black"/>
+            <Rectangle Fill="White"/>
+            <Rectangle Fill="Black"/>
+            <Rectangle Fill="White"/>
+        </UniformGrid>
+    </Grid>
+</Window>

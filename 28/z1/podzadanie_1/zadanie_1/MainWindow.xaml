@@ -1,0 +1,31 @@
+﻿<Window x:Class="MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:zadanie_1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Canvas Width="800" Height="400" Background="White">
+        <!-- Треугольник без заливки -->
+        <Polygon Points="50,0 0,100 100,100" Stroke="Black" StrokeThickness="2"
+             Canvas.Left="50" Canvas.Top="50"/>
+
+        <!-- Эллипс без заливки -->
+        <Ellipse Width="100" Height="60" Stroke="Black" StrokeThickness="2"
+             Canvas.Left="200" Canvas.Top="70"/>
+
+        <!-- Закрашенный круг -->
+        <Ellipse Width="80" Height="80" Stroke="Black" StrokeThickness="2" Fill="Red"
+             Canvas.Left="350" Canvas.Top="90"/>
+
+        <!-- Закрашенный прямоугольник -->
+        <Rectangle Width="120" Height="80" Stroke="Black" StrokeThickness="2" Fill="Yellow"
+               Canvas.Left="500" Canvas.Top="110"/>
+
+        <!-- Сектор -->
+        <Path Stroke="Black" StrokeThickness="2"
+          Data="M 50,50 L 100,50 A 50,50 0 0,1 50,100 Z"
+          Canvas.Left="650" Canvas.Top="130"/>
+    </Canvas>
+</Window>

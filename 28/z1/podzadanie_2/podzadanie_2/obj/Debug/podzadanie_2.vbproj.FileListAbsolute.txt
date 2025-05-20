@@ -1,0 +1,17 @@
+D:\3 курс\Практика C#\Day28\zadanie_1\podzadanie_2\podzadanie_2\bin\Debug\podzadanie_2.exe.config
+D:\3 курс\Практика C#\Day28\zadanie_1\podzadanie_2\podzadanie_2\bin\Debug\podzadanie_2.exe
+D:\3 курс\Практика C#\Day28\zadanie_1\podzadanie_2\podzadanie_2\bin\Debug\podzadanie_2.pdb
+D:\3 курс\Практика C#\Day28\zadanie_1\podzadanie_2\podzadanie_2\bin\Debug\podzadanie_2.xml
+D:\3 курс\Практика C#\Day28\zadanie_1\podzadanie_2\podzadanie_2\obj\Debug\podzadanie_2.vbproj.AssemblyReference.cache
+D:\3 курс\Практика C#\Day28\zadanie_1\podzadanie_2\podzadanie_2\obj\Debug\MainWindow.g.vb
+D:\3 курс\Практика C#\Day28\zadanie_1\podzadanie_2\podzadanie_2\obj\Debug\Application.g.vb
+D:\3 курс\Практика C#\Day28\zadanie_1\podzadanie_2\podzadanie_2\obj\Debug\podzadanie_2_MarkupCompile.cache
+D:\3 курс\Практика C#\Day28\zadanie_1\podzadanie_2\podzadanie_2\obj\Debug\podzadanie_2_MarkupCompile.lref
+D:\3 курс\Практика C#\Day28\zadanie_1\podzadanie_2\podzadanie_2\obj\Debug\MainWindow.baml
+D:\3 курс\Практика C#\Day28\zadanie_1\podzadanie_2\podzadanie_2\obj\Debug\podzadanie_2.g.resources
+D:\3 курс\Практика C#\Day28\zadanie_1\podzadanie_2\podzadanie_2\obj\Debug\podzadanie_2.Resources.resources
+D:\3 курс\Практика C#\Day28\zadanie_1\podzadanie_2\podzadanie_2\obj\Debug\podzadanie_2.vbproj.GenerateResource.cache
+D:\3 курс\Практика C#\Day28\zadanie_1\podzadanie_2\podzadanie_2\obj\Debug\podzadanie_2.vbproj.CoreCompileInputs.cache
+D:\3 курс\Практика C#\Day28\zadanie_1\podzadanie_2\podzadanie_2\obj\Debug\podzadanie_2.exe
+D:\3 курс\Практика C#\Day28\zadanie_1\podzadanie_2\podzadanie_2\obj\Debug\podzadanie_2.xml
+D:\3 курс\Практика C#\Day28\zadanie_1\podzadanie_2\podzadanie_2\obj\Debug\podzadanie_2.pdb

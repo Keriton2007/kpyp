@@ -1,0 +1,30 @@
+﻿<Window x:Class="podzadanie_3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:podzadanie_3"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Canvas Width="800" Height="400" Background="White">
+        <!-- Первый столбик -->
+        <Rectangle Width="70" Height="120" Stroke="Black" StrokeThickness="2"
+               Canvas.Left="50" Canvas.Top="100"/>
+
+        <!-- Второй столбик -->
+        <Rectangle Width="70" Height="120" Stroke="Black" StrokeThickness="2"
+               Canvas.Left="100" Canvas.Top="125"/>
+
+        <!-- Третий столбик -->
+        <Rectangle Width="70" Height="120" Stroke="Black" StrokeThickness="2"
+               Canvas.Left="150" Canvas.Top="150"/>
+
+        <!-- Четвёртый столбик -->
+        <Rectangle Width="70" Height="120" Stroke="Black" StrokeThickness="2"
+               Canvas.Left="200" Canvas.Top="175"/>
+
+        <!-- Пятый столбик -->
+        <Rectangle Width="70" Height="120" Stroke="Black" StrokeThickness="2"
+               Canvas.Left="250" Canvas.Top="200"/>
+    </Canvas>
+</Window>
