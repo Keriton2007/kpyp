@@ -1,0 +1,14 @@
+F:\Рабочий стол\практика с#\DAY1\DAY20\Task1\bin\Debug\net8.0\Task1.exe
+F:\Рабочий стол\практика с#\DAY1\DAY20\Task1\bin\Debug\net8.0\Task1.deps.json
+F:\Рабочий стол\практика с#\DAY1\DAY20\Task1\bin\Debug\net8.0\Task1.runtimeconfig.json
+F:\Рабочий стол\практика с#\DAY1\DAY20\Task1\bin\Debug\net8.0\Task1.dll
+F:\Рабочий стол\практика с#\DAY1\DAY20\Task1\bin\Debug\net8.0\Task1.pdb
+F:\Рабочий стол\практика с#\DAY1\DAY20\Task1\obj\Debug\net8.0\Task1.GeneratedMSBuildEditorConfig.editorconfig
+F:\Рабочий стол\практика с#\DAY1\DAY20\Task1\obj\Debug\net8.0\Task1.AssemblyInfoInputs.cache
+F:\Рабочий стол\практика с#\DAY1\DAY20\Task1\obj\Debug\net8.0\Task1.AssemblyInfo.cs
+F:\Рабочий стол\практика с#\DAY1\DAY20\Task1\obj\Debug\net8.0\Task1.csproj.CoreCompileInputs.cache
+F:\Рабочий стол\практика с#\DAY1\DAY20\Task1\obj\Debug\net8.0\Task1.dll
+F:\Рабочий стол\практика с#\DAY1\DAY20\Task1\obj\Debug\net8.0\refint\Task1.dll
+F:\Рабочий стол\практика с#\DAY1\DAY20\Task1\obj\Debug\net8.0\Task1.pdb
+F:\Рабочий стол\практика с#\DAY1\DAY20\Task1\obj\Debug\net8.0\Task1.genruntimeconfig.cache
+F:\Рабочий стол\практика с#\DAY1\DAY20\Task1\obj\Debug\net8.0\ref\Task1.dll
