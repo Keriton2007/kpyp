@@ -1,0 +1,33 @@
+D:\Projects\C#\Practice_CSharp\Tema24\Task4\bin\Debug\net8.0-windows\Task4.exe
+D:\Projects\C#\Practice_CSharp\Tema24\Task4\bin\Debug\net8.0-windows\Task4.deps.json
+D:\Projects\C#\Practice_CSharp\Tema24\Task4\bin\Debug\net8.0-windows\Task4.runtimeconfig.json
+D:\Projects\C#\Practice_CSharp\Tema24\Task4\bin\Debug\net8.0-windows\Task4.dll
+D:\Projects\C#\Practice_CSharp\Tema24\Task4\bin\Debug\net8.0-windows\Task4.pdb
+D:\Projects\C#\Practice_CSharp\Tema24\Task4\obj\Debug\net8.0-windows\Task4.Form1.resources
+D:\Projects\C#\Practice_CSharp\Tema24\Task4\obj\Debug\net8.0-windows\Task4.csproj.GenerateResource.cache
+D:\Projects\C#\Practice_CSharp\Tema24\Task4\obj\Debug\net8.0-windows\Task4.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\C#\Practice_CSharp\Tema24\Task4\obj\Debug\net8.0-windows\Task4.AssemblyInfoInputs.cache
+D:\Projects\C#\Practice_CSharp\Tema24\Task4\obj\Debug\net8.0-windows\Task4.AssemblyInfo.cs
+D:\Projects\C#\Practice_CSharp\Tema24\Task4\obj\Debug\net8.0-windows\Task4.csproj.CoreCompileInputs.cache
+D:\Projects\C#\Practice_CSharp\Tema24\Task4\obj\Debug\net8.0-windows\Task4.sourcelink.json
+D:\Projects\C#\Practice_CSharp\Tema24\Task4\obj\Debug\net8.0-windows\Task4.dll
+D:\Projects\C#\Practice_CSharp\Tema24\Task4\obj\Debug\net8.0-windows\refint\Task4.dll
+D:\Projects\C#\Practice_CSharp\Tema24\Task4\obj\Debug\net8.0-windows\Task4.pdb
+D:\Projects\C#\Practice_CSharp\Tema24\Task4\obj\Debug\net8.0-windows\Task4.genruntimeconfig.cache
+D:\Projects\C#\Practice_CSharp\Tema24\Task4\obj\Debug\net8.0-windows\ref\Task4.dll
+F:\Рабочий стол\практика с#\DAY1\DAY24\Task4\bin\Debug\net8.0-windows\Task4.exe
+F:\Рабочий стол\практика с#\DAY1\DAY24\Task4\bin\Debug\net8.0-windows\Task4.deps.json
+F:\Рабочий стол\практика с#\DAY1\DAY24\Task4\bin\Debug\net8.0-windows\Task4.runtimeconfig.json
+F:\Рабочий стол\практика с#\DAY1\DAY24\Task4\bin\Debug\net8.0-windows\Task4.dll
+F:\Рабочий стол\практика с#\DAY1\DAY24\Task4\bin\Debug\net8.0-windows\Task4.pdb
+F:\Рабочий стол\практика с#\DAY1\DAY24\Task4\obj\Debug\net8.0-windows\Task4.Form1.resources
+F:\Рабочий стол\практика с#\DAY1\DAY24\Task4\obj\Debug\net8.0-windows\Task4.csproj.GenerateResource.cache
+F:\Рабочий стол\практика с#\DAY1\DAY24\Task4\obj\Debug\net8.0-windows\Task4.GeneratedMSBuildEditorConfig.editorconfig
+F:\Рабочий стол\практика с#\DAY1\DAY24\Task4\obj\Debug\net8.0-windows\Task4.AssemblyInfoInputs.cache
+F:\Рабочий стол\практика с#\DAY1\DAY24\Task4\obj\Debug\net8.0-windows\Task4.AssemblyInfo.cs
+F:\Рабочий стол\практика с#\DAY1\DAY24\Task4\obj\Debug\net8.0-windows\Task4.csproj.CoreCompileInputs.cache
+F:\Рабочий стол\практика с#\DAY1\DAY24\Task4\obj\Debug\net8.0-windows\Task4.dll
+F:\Рабочий стол\практика с#\DAY1\DAY24\Task4\obj\Debug\net8.0-windows\refint\Task4.dll
+F:\Рабочий стол\практика с#\DAY1\DAY24\Task4\obj\Debug\net8.0-windows\Task4.pdb
+F:\Рабочий стол\практика с#\DAY1\DAY24\Task4\obj\Debug\net8.0-windows\Task4.genruntimeconfig.cache
+F:\Рабочий стол\практика с#\DAY1\DAY24\Task4\obj\Debug\net8.0-windows\ref\Task4.dll
