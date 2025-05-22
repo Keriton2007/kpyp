@@ -1,0 +1,23 @@
+D:\Projects\C#\Practice_CSharp\Tema31\Task1\bin\Debug\DBTur_firm.accdb
+D:\Projects\C#\Practice_CSharp\Tema31\Task1\bin\Debug\Task1.exe.config
+D:\Projects\C#\Practice_CSharp\Tema31\Task1\bin\Debug\Task1.exe
+D:\Projects\C#\Practice_CSharp\Tema31\Task1\bin\Debug\Task1.pdb
+D:\Projects\C#\Practice_CSharp\Tema31\Task1\obj\Debug\Task1.csproj.AssemblyReference.cache
+D:\Projects\C#\Practice_CSharp\Tema31\Task1\obj\Debug\Task1.Form1.resources
+D:\Projects\C#\Practice_CSharp\Tema31\Task1\obj\Debug\Task1.Properties.Resources.resources
+D:\Projects\C#\Practice_CSharp\Tema31\Task1\obj\Debug\Task1.csproj.GenerateResource.cache
+D:\Projects\C#\Practice_CSharp\Tema31\Task1\obj\Debug\Task1.csproj.CoreCompileInputs.cache
+D:\Projects\C#\Practice_CSharp\Tema31\Task1\obj\Debug\Task1.exe
+D:\Projects\C#\Practice_CSharp\Tema31\Task1\obj\Debug\Task1.pdb
+D:\Projects\C#\Practice_CSharp\Tema31\Task1\bin\Debug\EntityFramework.dll
+D:\Projects\C#\Practice_CSharp\Tema31\Task1\bin\Debug\EntityFramework.SqlServer.dll
+D:\Projects\C#\Practice_CSharp\Tema31\Task1\bin\Debug\System.Data.SQLite.dll
+D:\Projects\C#\Practice_CSharp\Tema31\Task1\bin\Debug\System.Data.SQLite.EF6.dll
+D:\Projects\C#\Practice_CSharp\Tema31\Task1\bin\Debug\System.Data.SQLite.Linq.dll
+D:\Projects\C#\Practice_CSharp\Tema31\Task1\bin\Debug\EntityFramework.xml
+D:\Projects\C#\Practice_CSharp\Tema31\Task1\bin\Debug\EntityFramework.SqlServer.xml
+D:\Projects\C#\Practice_CSharp\Tema31\Task1\bin\Debug\System.Data.SQLite.xml
+D:\Projects\C#\Practice_CSharp\Tema31\Task1\obj\Debug\Task1.csproj.Up2Date
+D:\Documents\практика с#\DAY1\DAY31\Task1\obj\Debug\Task1.csproj.AssemblyReference.cache
+D:\Documents\практика с#\DAY1\DAY31\Task1\obj\Debug\Task1.exe
+D:\Documents\практика с#\DAY1\DAY31\Task1\obj\Debug\Task1.pdb
